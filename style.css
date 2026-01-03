@@ -337,3 +337,14 @@ footer {
     max-height: 300px;
   }
 }
+
+/* ===== FIX PLACEHOLDER VISIBILITY ===== */
+::placeholder {
+  color: #94a3b8;   /* visible light gray */
+  opacity: 1;       /* important for mobile */
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #94a3b8;
+}
